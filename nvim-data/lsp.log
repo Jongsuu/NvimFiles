@@ -1,0 +1,30 @@
+[START][2022-12-20 14:14:22] LSP logging initiated
+[WARN][2022-12-20 14:14:22] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 14:14:22] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[ERROR][2022-12-20 15:01:53] .../vim/lsp/rpc.lua:733	"rpc"	"C:\\Windows\\system32\\cmd.exe"	"stderr"	"NMD, WSM `endLine > #rows` ?\r\nstack traceback:\r\n\tscript\\text-merger.lua:72: in upvalue 'mergeRows'\r\n\tscript\\text-merger.lua:106: in function 'text-merger'\r\n\tscript\\provider\\provider.lua:305: in function <script\\provider\\provider.lua:290>\r\n\t[C]: in function 'xpcall'\r\n\tscript\\proto\\proto.lua:184: in function <script\\proto\\proto.lua:159>\r\n"
+[START][2022-12-20 15:19:32] LSP logging initiated
+[WARN][2022-12-20 15:19:32] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:19:32] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:20:10] LSP logging initiated
+[WARN][2022-12-20 15:20:10] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:20:10] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:20:31] LSP logging initiated
+[WARN][2022-12-20 15:20:31] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:20:31] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:21:24] LSP logging initiated
+[WARN][2022-12-20 15:21:24] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:21:24] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:22:04] LSP logging initiated
+[WARN][2022-12-20 15:22:04] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:22:04] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:22:30] LSP logging initiated
+[WARN][2022-12-20 15:22:30] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:22:30] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:22:45] LSP logging initiated
+[WARN][2022-12-20 15:22:45] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:22:45] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-20 15:22:56] LSP logging initiated
+[WARN][2022-12-20 15:22:56] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[WARN][2022-12-20 15:22:56] .../lua/vim/lsp.lua:1072	"server_request: no handler found for"	"workspace/diagnostic/refresh"
+[START][2022-12-23 13:21:36] LSP logging initiated
+[WARN][2022-12-23 13:21:36] .../lua/vim/lsp.lua:1609	"buf_attach_client called on unloaded buffer (id: 4): "

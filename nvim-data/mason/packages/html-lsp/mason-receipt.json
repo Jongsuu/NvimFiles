@@ -1,0 +1,1 @@
+{"links":{"bin":{"vscode-html-language-server":"node_modules\\.bin\\vscode-html-language-server.cmd"}},"name":"html-lsp","schema_version":"1.0","secondary_sources":[],"primary_source":{"type":"npm","package":"vscode-langservers-extracted"},"metrics":{"start_time":1671541591931,"completion_time":1671541617201}}

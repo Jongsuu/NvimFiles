@@ -1,0 +1,1 @@
+{"primary_source":{"package":"vscode-langservers-extracted","type":"npm"},"links":{"bin":{"vscode-eslint-language-server":"node_modules\\.bin\\vscode-eslint-language-server.cmd"}},"name":"eslint-lsp","secondary_sources":[],"schema_version":"1.0","metrics":{"completion_time":1671542068505,"start_time":1671542043252}}

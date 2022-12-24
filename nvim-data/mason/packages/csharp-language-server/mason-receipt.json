@@ -1,0 +1,1 @@
+{"links":{"bin":{"csharp-ls":"csharp-ls.exe"}},"name":"csharp-language-server","schema_version":"1.0","secondary_sources":[],"primary_source":{"type":"dotnet","package":"csharp-ls"},"metrics":{"start_time":1671541556167,"completion_time":1671541597287}}
