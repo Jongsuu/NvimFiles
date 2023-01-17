@@ -14,3 +14,68 @@
 [INFO  Tue Dec 20 14:14:03 2022] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:119: Executing installer for Package(name=eslint-lsp)
 [INFO  Tue Dec 20 14:14:20 2022] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:151: Installation succeeded for Package(name=lua-language-server)
 [INFO  Tue Dec 20 14:14:28 2022] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:151: Installation succeeded for Package(name=eslint-lsp)
+[INFO  Wed Jan 11 15:32:46 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 15:32:46 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code - and signal -. dotnet is not executable
+[INFO  Wed Jan 11 15:58:15 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[INFO  Wed Jan 11 15:58:19 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 15:58:19 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 15:58:20 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=kotlin-language-server)
+[ERROR Wed Jan 11 15:58:21 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code 1 and signal 0. 
+[INFO  Wed Jan 11 15:58:21 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 15:58:21 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 15:58:29 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=kotlin-language-server)
+[INFO  Wed Jan 11 15:58:58 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=cpptools)
+[INFO  Wed Jan 11 15:59:09 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=cpptools)
+[INFO  Wed Jan 11 15:59:56 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=python-lsp-server)
+[INFO  Wed Jan 11 16:00:24 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=python-lsp-server)
+[INFO  Wed Jan 11 16:00:38 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:00:38 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:02:59 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:02:59 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:00 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:03:00 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:01 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:03:01 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:01 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:03:01 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:02 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 16:03:02 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:04 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:03:04 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:32 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 16:03:32 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:03:52 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:03:52 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[ERROR Wed Jan 11 16:04:07 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=css-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:09 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 16:04:09 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:09 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 16:04:09 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:10 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[ERROR Wed Jan 11 16:04:10 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=html-lsp) error=spawn: npm.cmd failed with exit code - and signal -. npm.cmd is not executable
+[INFO  Wed Jan 11 16:04:36 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 16:04:38 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code 1 and signal 0. 
+[INFO  Wed Jan 11 16:06:53 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 16:06:53 2023] ...\pack\packer\start\mason.nvim/lua/mason-core/process.lua:152: Failed to spawn process. cmd="dotnet", err="ENOENT: no such file or directory"
+[ERROR Wed Jan 11 16:06:53 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code - and signal -. 
+[INFO  Wed Jan 11 16:06:54 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 16:06:54 2023] ...\pack\packer\start\mason.nvim/lua/mason-core/process.lua:152: Failed to spawn process. cmd="dotnet", err="ENOENT: no such file or directory"
+[ERROR Wed Jan 11 16:06:54 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code - and signal -. 
+[INFO  Wed Jan 11 16:06:55 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 16:06:55 2023] ...\pack\packer\start\mason.nvim/lua/mason-core/process.lua:152: Failed to spawn process. cmd="dotnet", err="ENOENT: no such file or directory"
+[ERROR Wed Jan 11 16:06:55 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code - and signal -. 
+[INFO  Wed Jan 11 16:07:16 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[ERROR Wed Jan 11 16:07:16 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:159: Installation failed for Package(name=csharp-language-server) error=spawn: dotnet failed with exit code - and signal -. dotnet is not executable
+[INFO  Wed Jan 11 16:33:49 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=csharp-language-server)
+[INFO  Wed Jan 11 16:33:53 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=csharp-language-server)
+[INFO  Wed Jan 11 16:34:01 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=html-lsp)
+[INFO  Wed Jan 11 16:34:08 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=css-lsp)
+[INFO  Wed Jan 11 16:34:28 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=css-lsp)
+[INFO  Wed Jan 11 16:34:29 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=html-lsp)
+[INFO  Wed Jan 11 18:40:55 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:120: Executing installer for Package(name=clangd)
+[INFO  Wed Jan 11 18:40:59 2023] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:152: Installation succeeded for Package(name=clangd)

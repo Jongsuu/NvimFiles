@@ -1,0 +1,1 @@
+{"metrics":{"start_time":1673449196138,"completion_time":1673449224290},"schema_version":"1.0","links":{"bin":{"pylsp":"venv\\Scripts\\pylsp.exe"}},"primary_source":{"package":"python-lsp-server[all]","type":"pip3"},"name":"python-lsp-server","secondary_sources":[]}

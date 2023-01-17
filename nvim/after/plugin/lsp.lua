@@ -1,17 +1,6 @@
-local lsp = require('lsp-zero')
+local lsp = require("lsp-zero")
 
-lsp.preset('recommended')
-
-lsp.ensure_installed({
-	'jdtls', -- Java
-	'kotlin_language_server', -- Kotlin
-	'csharp_ls', -- C#
-	'pyright', -- Python
-	'sumneko_lua', -- Lua
-	'eslint', -- JavaScript
-	'cssls', -- CSS
-	'html' -- HTML
-})
+lsp.preset("recommended")
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
@@ -23,15 +12,19 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 })
 
 lsp.set_preferences({
-	sign_icons = { }
+    suggest_lsp_servers = false,
+    sign_icons = {
+        error = 'E',
+        warn = 'W',
+        hint = 'H',
+        info = 'I'
+    }
 })
-
 lsp.setup_nvim_cmp({
 	mapping = cmp_mappings
 })
 
 lsp.on_attach(function(client, bufnr)
-	print("help")
 	local opts = {buffer = bfnr, remap = false}
 
 	vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
