@@ -12,7 +12,9 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
+		
+	use 'EdenEast/nightfox.nvim'
+		
 	use ({
 		'rose-pine/neovim',
 		as = 'rose-pine',
@@ -24,6 +26,7 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use('theprimeagen/harpoon')
+	use('theprimeagen/vim-be-good')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
 
