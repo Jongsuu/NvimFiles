@@ -24,6 +24,8 @@ return require('packer').startup(function(use)
 	use('tpope/vim-fugitive')
 	use('machakann/vim-highlightedyank')
 		
+	vim.cmd.let("g:highlightedyank_highlight_duration = 250")
+		
 	use({'lewis6991/gitsigns.nvim',
 
         require('gitsigns').setup {
