@@ -11,6 +11,18 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 	['<C-Space>'] = cmp.mapping.complete()
 })
 
+lsp.setup_servers({
+    'clangd',
+    'css-lsp',
+    'eslint-lsp',
+    'html-lsp',
+    'json-lsp',
+    'markdownlint',
+    'python-lsp-server',
+    'typescript-language-server',
+    'omnisharp'
+})
+
 lsp.set_preferences({
     suggest_lsp_servers = false,
     sign_icons = {
@@ -25,7 +37,7 @@ lsp.setup_nvim_cmp({
 })
 
 lsp.on_attach(function(client, bufnr)
-	local opts = {buffer = bfnr, remap = false}
+	local opts = { buffer = bufnr, remap = false }
 
 	vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
 	vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
@@ -37,6 +49,7 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
 	vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
 	vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+	vim.keymap.set("n", "<leader>f", function() vim.lsp.buf.format() end, opts)
 end)
 
 lsp.setup()
