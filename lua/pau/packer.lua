@@ -28,7 +28,10 @@ return require('packer').startup(function(use)
 	use('theprimeagen/harpoon')
 	use('theprimeagen/vim-be-good')
 
+    -- Keeps track of all the changes in the file
 	use('mbbill/undotree')
+
+    -- Git integrations
 	use('tpope/vim-fugitive')
 
     -- Highlight yank
