@@ -29,4 +29,7 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+-- Set new horizontal splits below and vertical splits on the right
+vim.cmd("set splitbelow splitright")
+
 --vim.opt.colorcolumn = "80"
