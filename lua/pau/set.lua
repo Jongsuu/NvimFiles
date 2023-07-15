@@ -32,4 +32,7 @@ vim.opt.updatetime = 50
 -- Set new horizontal splits below and vertical splits on the right
 vim.cmd("set splitbelow splitright")
 
+-- Set search to be case insensitive when all lower and case sensity when there's at least a capital
+vim.cmd("set ignorecase smartcase")
+
 --vim.opt.colorcolumn = "80"
