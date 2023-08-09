@@ -36,15 +36,6 @@ tokyonight.setup({
     on_highlights = function(highlights, colors) end,
 })
 
-local treesitter = require('nvim-treesitter.configs')
-
-treesitter.setup {
-    highlight = {
-        enable = true,
-
-    }
-}
-
 function ColorMyPencils(color)
 	color = color or "tokyonight"
 	vim.cmd.colorscheme(color)

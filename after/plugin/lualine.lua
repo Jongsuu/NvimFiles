@@ -2,7 +2,7 @@ require('lualine').setup {
     options = {
         icons_enabled = true,
         theme = 'auto',
-        component_separators = { left = '', right = ''},
+        component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
         disabled_filetypes = {
             statusline = {},
@@ -19,9 +19,31 @@ require('lualine').setup {
     },
     sections = {
         lualine_a = {'mode'},
-        lualine_b = {'branch', 'diff', 'diagnostics'},
-        lualine_c = {'filename', 'searchcount', 'selectioncount'},
-        lualine_x = {'buffers'},
+        lualine_b = {
+            { 'branch' },
+            {
+                'diff',
+                colored = true,
+                symbols = { added = '+', modified = '~', removed = '-' },
+                source = nil
+            },
+            {
+                'diagnostics',
+                update_in_insert = false,
+                always_visible = false
+            }
+        },
+        lualine_c = {'filename', 'selectioncount'},
+        lualine_x = {
+            {
+                'buffers',
+                max_length = vim.o.columns * 4 / 10,
+                show_filename_only = true,
+                hide_filename_extension = false,
+                show_modified_status = true,
+                draw_empty = false
+            }
+        },
         lualine_y = {'filetype'},
         lualine_z = {'location'}
     },
@@ -29,9 +51,9 @@ require('lualine').setup {
         lualine_a = {},
         lualine_b = {},
         lualine_c = {'filename'},
-        lualine_x = {'location'},
-        lualine_y = {},
-        lualine_z = {}
+        lualine_x = {},
+        lualine_y = {'filetype'},
+        lualine_z = {'location'}
     },
     tabline = {},
     winbar = {},

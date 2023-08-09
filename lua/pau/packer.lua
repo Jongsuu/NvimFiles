@@ -9,7 +9,6 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 
     -- Themes
-	use 'EdenEast/nightfox.nvim'
 	use 'folke/tokyonight.nvim'
 
     -- Telescope
