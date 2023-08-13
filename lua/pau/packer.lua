@@ -4,43 +4,42 @@
 vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
-
-	-- Packer can manage itself
-	use 'wbthomason/packer.nvim'
+    -- Packer can manage itself
+    use 'wbthomason/packer.nvim'
 
     -- Themes
-	use 'folke/tokyonight.nvim'
+    use 'folke/tokyonight.nvim'
 
     -- Telescope
-	use {
-		'nvim-telescope/telescope.nvim', tag = '0.1.0',
-		-- or                           , branch = '0.1.x',
-		requires = { {'nvim-lua/plenary.nvim'} }
-	}
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        -- or                           , branch = '0.1.x',
+        requires = { { 'nvim-lua/plenary.nvim' } }
+    }
 
     -- Treesitter
-	use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
-	use('nvim-treesitter/playground')
+    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    use('nvim-treesitter/playground')
     use("nvim-treesitter/nvim-treesitter-context")
 
     -- Primeagen
-	use('theprimeagen/harpoon')
-	use('theprimeagen/vim-be-good')
+    use('theprimeagen/harpoon')
+    use('theprimeagen/vim-be-good')
 
     -- Keeps track of all the changes in the file
-	use('mbbill/undotree')
+    use('mbbill/undotree')
 
     -- Git integrations
-	use('tpope/vim-fugitive')
+    use('tpope/vim-fugitive')
 
     -- Highlight yank
-	use('machakann/vim-highlightedyank')
-	vim.cmd.let("g:highlightedyank_highlight_duration = 200")
+    use('machakann/vim-highlightedyank')
+    vim.cmd.let("g:highlightedyank_highlight_duration = 200")
 
     -- Git Signs: shows deleted lines, new lines...
-	use('lewis6991/gitsigns.nvim')
+    use('lewis6991/gitsigns.nvim')
 
-    use ({
+    use({
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     })
@@ -64,27 +63,27 @@ return require('packer').startup(function(use)
     }
 
     -- LSP
-	use {
-		'VonHeikemen/lsp-zero.nvim',
+    use {
+        'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
-		requires = {
-			-- LSP Support
-			{'neovim/nvim-lspconfig'},
-			{'williamboman/mason.nvim'},
-			{'williamboman/mason-lspconfig.nvim'},
+        requires = {
+            -- LSP Support
+            { 'neovim/nvim-lspconfig' },
+            { 'williamboman/mason.nvim' },
+            { 'williamboman/mason-lspconfig.nvim' },
 
-			-- Autocompletion
-			{'hrsh7th/nvim-cmp'},
-			{'hrsh7th/cmp-buffer'},
-			{'hrsh7th/cmp-path'},
-			{'saadparwaiz1/cmp_luasnip'},
-			{'hrsh7th/cmp-nvim-lsp'},
-			{'hrsh7th/cmp-nvim-lua'},
+            -- Autocompletion
+            { 'hrsh7th/nvim-cmp' },
+            { 'hrsh7th/cmp-buffer' },
+            { 'hrsh7th/cmp-path' },
+            { 'saadparwaiz1/cmp_luasnip' },
+            { 'hrsh7th/cmp-nvim-lsp' },
+            { 'hrsh7th/cmp-nvim-lua' },
 
-			-- Snippets
-			{'L3MON4D3/LuaSnip'},
-			{'rafamadriz/friendly-snippets'},
-		}
+            -- Snippets
+            { 'L3MON4D3/LuaSnip' },
+            { 'rafamadriz/friendly-snippets' },
+        }
     }
 
     -- Debugging
@@ -92,5 +91,4 @@ return require('packer').startup(function(use)
     use('rcarriga/nvim-dap-ui')
     use('theHamsta/nvim-dap-virtual-text')
     use('nvim-telescope/telescope-dap.nvim')
-
 end)

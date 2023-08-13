@@ -35,4 +35,7 @@ vim.cmd("set splitbelow splitright")
 -- Set search to be case insensitive when all lower and case sensity when there's at least a capital
 vim.cmd("set ignorecase smartcase")
 
+-- Don't show mode, ruler or cmd
+vim.cmd("set noshowmode noruler noshowcmd")
+
 --vim.opt.colorcolumn = "80"
