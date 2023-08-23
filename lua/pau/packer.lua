@@ -18,7 +18,9 @@ return require('packer').startup(function(use)
     }
 
     -- Treesitter
-    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    use {
+        'nvim-treesitter/nvim-treesitter', tag = 'v0.9.0', run = ':TSUpdate'
+    }
     use('nvim-treesitter/playground')
     use("nvim-treesitter/nvim-treesitter-context")
 
@@ -26,15 +28,14 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use('theprimeagen/vim-be-good')
 
+    -- Vim Actions per Minute
+    use('aldevv/vim-apm')
+
     -- Keeps track of all the changes in the file
     use('mbbill/undotree')
 
     -- Git integrations
     use('tpope/vim-fugitive')
-
-    -- Highlight yank
-    use('machakann/vim-highlightedyank')
-    vim.cmd.let("g:highlightedyank_highlight_duration = 200")
 
     -- Git Signs: shows deleted lines, new lines...
     use('lewis6991/gitsigns.nvim')
